@@ -1,122 +1,69 @@
-<!doctype html>
-<html lang="fr">
-	<div id="wrap">
-<head>
-    <meta charset="utf-8">
-    <title>Mon CV</title>
-    <link rel="stylesheet" href="CSS/style.css" type="text/css" />
-</head>
-<body>
-	<div id="entete">
-<div class="conteneur">
-   <header>
-            <div class="image">
-            	
-            <img src="images/image.jpg">
-            </div>
-            <div class="entete">
-                <h1>GAVAUD Christophe</h1>
-                <h1>Je recherche un poste de Codeur</h1>
-                </div>
-   </header>
-</div>
-	</div>
-      <main>
-     <div id="colonne">
-  <div class="conteneur">      
-  
- 
-			<h3>Mon expérience</h3>
-			<li>
-			     <p>Diagnostique et réparation de materiel informatique</p>
-			 </li>
-			<li>
-			     <p>Assistance à distance au près de particuliers</p>
-			 </li>
-			<li>
-			<p>Installation et paramétrage serveur d'applications et de stockage.</p>
-			</li>
-			<li>
-			<p>Assemblage de postes de travail</p>
-			</li>
-			<h2>Diplomes obtenus</h2>
-			<li>
-			<p>CAP electrotechnique (1995)</p>
-			</li>
-			<li>
-			<p>Titre professionnel Technicien d'Assistance en Informatique (2015)</p>
-			</li>
-			<li>
-			<p>Actuellement en formation "Codeurs Indriens"</p>
-			</li>
-</div>
-<div id="colonne">
-  <div class="conteneur">      
-  
- 
-			<h3>Mon expérience</h3>
-			<li>
-			     <p>Diagnostique et réparation de materiel informatique</p>
-			 </li>
-			<li>
-			     <p>Assistance à distance au près de particuliers</p>
-			 </li>
-			<li>
-			<p>Installation et paramétrage serveur d'applications et de stockage.</p>
-			</li>
-			<li>
-			<p>Assemblage de postes de travail</p>
-			</li>
-			<h2>Diplomes obtenus</h2>
-			<li>
-			<p>CAP electrotechnique (1995)</p>
-			</li>
-			<li>
-			<p>Titre professionnel Technicien d'Assistance en Informatique (2015)</p>
-			</li>
-			<li>
-			<p>Actuellement en formation "Codeurs Indriens"</p>
-			</li>
-</div>
-<div id="colonne">
-  <div class="conteneur">      
-  
- 
-			<h3>Mon expérience</h3>
-			<li>
-			     <p>Diagnostique et réparation de materiel informatique</p>
-			 </li>
-			<li>
-			     <p>Assistance à distance au près de particuliers</p>
-			 </li>
-			<li>
-			<p>Installation et paramétrage serveur d'applications et de stockage.</p>
-			</li>
-			<li>
-			<p>Assemblage de postes de travail</p>
-			</li>
-			<h2>Diplomes obtenus</h2>
-			<li>
-			<p>CAP electrotechnique (1995)</p>
-			</li>
-			<li>
-			<p>Titre professionnel Technicien d'Assistance en Informatique (2015)</p>
-			</li>
-			<li>
-			<p>Actuellement en formation "Codeurs Indriens"</p>
-			</li>
-</div>
-   </main>
-      
-        </div>
-        
-        <div id="footer">
-<div class="conteneur">
-<footer>
-
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2721.675473293847!2d1.4167657156724085!3d46.987708479148345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fb64de93b0de3f%3A0x2839ba8cf2c39ad9!2s8+Route+de+Valen%C3%A7ay%2C+36180+Pellevoisin!5e0!3m2!1sfr!2sfr!4v1448281945592" width="440" height="100" frameborder="0" style="border:0" allowfullscreen></iframe>
-        	<h3>Mes coordonnées : 0611920361|christophe.gavaud@gmail.com </h3>
-</footer>
-</div>
-		</div>
-	</body>
+body{
+background-image:url(../images/image3.png);
+padding:0;
+margin:0;
+color:black;
+}
+header{
+background-image:url(../images/image1.png);
+padding:10px;
+width:100%;
+color:white;
+}
+footer{
+background-image:url(../images/image2.png);
+padding:10px;
+width:100%;
+color:white;
+}
+p{
+text-align:justify;
+}
+.conteneur{
+    margin:15px;
+    padding:10px;
+    
+   
+}
+.entete{
+    width:30%;
+    display:inline-block;
+    vertical-align:top;
+    box-sizing:border-box
+}
+.image{
+    width:20%;
+    display:inline-block;
+    vertical-align:top;
+    box-sizing:border-box;
+}
+header .image img{
+    width:50%;
+}
+ul li{
+    list-style-type:none;
+    color:white;
+}
+.colonne{
+    width:30%;
+    display:inline-block;
+    vertical-align:top;
+    box-sizing:border-box;
+}
+footer{
+    position:absolute;
+    bottom:0;
+}
+footer p{
+    text-align:center;
+    width:30%;
+    display:inline-block;
+    vertical-align:top;
+    box-sizing:border-box;
+    margin-left:30px;
+}
+iframe{
+    display:inline-block;
+    vertical-align:top;
+    box-sizing:border-box;
+}
